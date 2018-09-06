@@ -1,0 +1,26 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$white-color: #fff;
+
+.main-content {
+  font-family: $font-stack;
+}
+hr {
+  margin-bottom: 0 !important;
+}
+.body-mainContent .container h3 {
+    display: none;
+}
+.panel {
+  margin-bottom: 0;
+}
+.panel-body {
+  padding: 0 !important;
+}
+.body-mainContent .container {
+  width: 100% !important;
+  margin: 0;
+  background: transparent !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}

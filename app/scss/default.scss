@@ -1,0 +1,33 @@
+.wrapper {
+  max-width: calc(1600px + 10%);
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hero-banner {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.cta-btn {
+  border-radius: 0;
+  text-align: center;
+  line-height: 30px;
+}
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+.class-name { @include transform(rotate(30deg)); }
+
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}

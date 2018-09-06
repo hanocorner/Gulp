@@ -1,0 +1,13 @@
+.separator {
+  border: none;
+}
+
+@media (min-width:768px) {
+  .separator {
+    border-right: 1px solid #e0e0e0;
+  }
+}
+
+hr {
+  border-color: #e0e0e0;
+}

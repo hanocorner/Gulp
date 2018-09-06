@@ -1,0 +1,7 @@
+1. Install gulp globally.
+
+ -- npm install -g gulp
+
+2. Install gulp locally in the project.
+
+-- npm install gulp
